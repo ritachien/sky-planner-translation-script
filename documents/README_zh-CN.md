@@ -8,5 +8,5 @@
 - [Tampermonkey(竄改猴)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 ### 安裝腳本
-- 將腳本網址貼近網址列並進行安裝
+- 將腳本網址貼進網址列並進行安裝
   - https://github.com/ritachien/sky-planner-translation-script/raw/refs/heads/main/scripts/sky-panner-zhcn.user.js
