@@ -24,7 +24,7 @@
   setTimeout(() => {
     initLeftMenu();
     loadContentByPath(window.location.pathname);
-  }, 1000);
+  }, 500);
 })();
 
 function initLeftMenu() {
@@ -68,6 +68,7 @@ function loadCurrencyPageContent() {
     "Season currency": "季節貨幣",
     "Event currency": "活動票券",
     "Spent currencies": "累計已花費貨幣",
+    "Spirit trees": "先祖兌換樹",
   };
 
   // card title
@@ -100,12 +101,12 @@ function loadCurrencySpentPageContent() {
   // description
   const pageDescription = document.querySelector(".sky-card-body div.container")
   pageDescription.innerHTML = `
-    <p>這個頁面會顯示你目前在光遇已花費的貨幣總計數量</p>
+    <p>這個頁面會顯示你目前在光遇已花費的貨幣總計數量。</p>
     <br/>
-    <p>來自季節嚮導和季節先祖的兌換物品，會顯示在季節花費區塊</p>
-    <p>不是來自季節的相關兌換物品(例如:築巢家具店)，會顯示在常駐花費區塊</p>
+    <p>來自季節嚮導和季節先祖的兌換物品，會顯示在季節花費區塊。</p>
+    <p>不是來自季節的相關兌換物品(例如:築巢家具店)，會顯示在常駐花費區塊。</p>
     <br/>
-    <p>詳細花費會使用下列縮寫: (c)代表白蠟、(h)代表白心、(ac)代表紅蠟、(ec)代表活動票券、(sc)代表季蠟、(sh)代表季心</p>
+    <p>詳細花費會使用下列縮寫: (c)代表白蠟、(h)代表白心、(ac)代表紅蠟、(ec)代表活動票券、(sc)代表季蠟、(sh)代表季心。</p>
   `
   
   const batchSelectors = [
