@@ -6,7 +6,8 @@
 // @author       RitaChien
 // @match        https://sky-planner.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sky-planner.com
-// @updateURL    D:\My_Project\Side_Project\sky-planner-zhCN\sky-panner-zhcn.user.js
+// @updateURL    https://github.com/ritachien/sky-planner-translation-script/raw/refs/heads/main/scripts/sky-panner-zhcn.user.js
+// @downloadURL  https://github.com/ritachien/sky-planner-translation-script/raw/refs/heads/main/scripts/sky-panner-zhcn.user.js
 // @grant        none
 // ==/UserScript==
 
